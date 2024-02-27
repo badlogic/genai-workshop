@@ -24,6 +24,12 @@ For **remote or in-person workshop** bookings, please reach out at contact@badlo
 
 **Pricing** is tailored to meet individual or organizational needs.
 
+## Testimonials
+
+> „Mario hat uns in nur wenigen Stunden einen fundierten Einblick gegeben, wie GenAI funktioniert und wo heute die Möglichkeiten und Grenzen liegen. Der Workshop zielt auf Leute mit Basis SW Entwicklungs-Know How ab und hilft unserem Unternehmen, die AI Strategie besser zu definieren.“
+>
+> \- Bernhard Reichel, CEO ETM professional control
+
 ## License
 
 <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cc_by-nc_icon.svg/2880px-Cc_by-nc_icon.svg.png" width=200></center>
