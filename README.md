@@ -6,21 +6,29 @@ For **remote or in-person workshop** bookings, please reach out at contact@badlo
 
 **Workshop Duration**: Minimum 4 hours, maximum 10 hours.
 
-**Languages**: English and German (Course materials in English only).
+**Languages**: English or German (Course materials in English only).
+
+**Target Audience**: This workshop is ideal for organizations interested in:
+
+- Understanding the capabilities and limitations of generative AI.
+- Learning how to effectively integrate AI into their teams or products.
+- Evaluating the validity of AI products and solutions critically.
+
+**Prerequisites**: Basic familiarity with any programming language is beneficial but not required. The workshop is designed to be accessible, with technical concepts explained in a way that everyone can understand.
 
 **Content Overview**:
 
-1. A **practical introduction to machine learning**, and **generative large language models** in particular, supplemented by interactive notebooks.
-2. An **extensive Q&A session** addressing:
-   - Application of these technologies within your organization.
-   - Feasibility of specific use cases you have in mind.
-   - Validity and effectiveness of AI-based products offered by third parties.
+1. A practical introduction to machine learning and generative large language models, including interactive notebooks.
+2. An extensive Q&A session to explore:
+   - How to apply these technologies within your organization.
+   - The feasibility of specific AI use cases.
+   - Assessing third-party AI solutions for effectiveness and validity.
 
 **Key Takeaways**:
 
-- Fundamental insights into machine learning, focusing on generative large language models.
-- Strategies for integrating machine learning models into your business processes.
-- The ability to critically assess the claims made by AI solution providers.
+- A solid foundation in machine learning with a focus on generative large language models.
+- Strategies for leveraging machine learning in your business.
+- Skills to critically evaluate AI solution claims.
 
 **Pricing** is tailored to meet individual or organizational needs.
 
