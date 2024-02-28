@@ -1,6 +1,6 @@
 # Generative AI Workshop
 
-This repository contains Jupyter notebooks for the workshop `Generative AI - A whirlwind tour` by [Mario Zechner](https://twitter.com/badlogicgames).
+This repository contains Jupyter notebooks for the workshop `Generative AI - A whirlwind tour` by [Mario Zechner](https://mariozechner.at).
 
 For **remote or in-person workshop** bookings, please reach out at contact@badlogicgames.com.
 
