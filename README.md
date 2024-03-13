@@ -26,7 +26,7 @@ For **remote or in-person workshop** bookings, please reach out at contact@mario
 
 **Key Takeaways**:
 
-- A solid foundation in machine learning with a focus on generative large language models like ChatGPT.
+- A solid foundation in machine learning with a focus on generative large language models like GPT.
 - Strategies for leveraging machine learning in your business.
 - Skills to critically evaluate AI solution claims.
 
