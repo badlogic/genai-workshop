@@ -32,6 +32,7 @@ Here you find supplemental information to get a deeper understanding of topics c
 - [RETRO - Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426)
 - [The illustrated retrieval transformer](https://jalammar.github.io/illustrated-retrieval-transformer/)
 - [Better RAG](https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-1-basics)
+- [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)
 
 ## Custom Coding Assistants ala GitHub Copilot
 
