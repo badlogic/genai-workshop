@@ -31,6 +31,7 @@ Here you find supplemental information to get a deeper understanding of topics c
 - [Building RAG Agents with LLMs](https://resources.nvidia.com/en-us-generative-ai-chatbot-workflow/building-rag-agents-with-llms-dli-course), free online course by NVIDIA
 - [RETRO - Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426)
 - [The illustrated retrieval transformer](https://jalammar.github.io/illustrated-retrieval-transformer/)
+- [Better RAG](https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-1-basics)
 
 ## Custom Coding Assistants ala GitHub Copilot
 
