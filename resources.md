@@ -60,6 +60,7 @@ Here you find supplemental information to get a deeper understanding of topics c
 - [Fine-Tuning LLMs: LoRA or Full-Parameter? An in-depth Analysis with Llama 2](https://www.anyscale.com/blog/fine-tuning-llms-lora-or-full-parameter-an-in-depth-analysis-with-llama-2)
 - [Hugging Face Model Memory Calculator](https://huggingface.co/spaces/hf-accelerate/model-memory-usage)
 - [Fine-tune LLMs for natural language to SQL completions](https://www.philschmid.de/fine-tune-llms-in-2024-with-trl)
+- [RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture](https://arxiv.org/abs/2401.08406)
 
 ## Other reference compilations
 
