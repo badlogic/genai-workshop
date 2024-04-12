@@ -86,6 +86,8 @@ This repository also contains more elaborate projects, that are closer to real-w
 
 ### Product advisor
 
+![examples/product-advisor.png](examples/product-advisor.png)
+
 The "product adviser" uses a simple "grounding" technique as described in the [Prompt Engineering](https://colab.research.google.com/github/badlogic/genai-workshop/blob/main/07_prompt_engineering.ipynb) notebook.
 
 Its task is it, to answer customer questions for a specific product the customer is currently viewing in the webshop of Blue Tomato.
