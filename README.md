@@ -79,3 +79,26 @@ Click the links below to open each section in Google Colab in your browser.
 7. [Prompt Engineering](https://colab.research.google.com/github/badlogic/genai-workshop/blob/main/07_prompt_engineering.ipynb)
 8. [Retrieval-augmented Generation](https://colab.research.google.com/github/badlogic/genai-workshop/blob/main/08_retrieval_augemented_generation.ipynb)
 9. [Simple, effective RAG Implementation](https://colab.research.google.com/github/badlogic/genai-workshop/blob/main/09_simple_rag.ipynb)
+
+## Demo projects
+
+This repository also contains more elaborate projects, that are closer to real-world use cases.
+
+### Product advisor
+
+The "product adviser" uses a simple "grounding" technique as described in the [Prompt Engineering](https://colab.research.google.com/github/badlogic/genai-workshop/blob/main/07_prompt_engineering.ipynb) notebook.
+
+Its task is it, to answer customer questions for a specific product the customer is currently viewing in the webshop of Blue Tomato.
+
+The product advisor is implemented as 2 components:
+
+- [examples/product-advisor/extension/](examples/product-advisor/extension/): a trivial Google Chrome extension, which injects a chat window onto the product page, and allows the user to ask questions about the product. The meat is in `content.js`. When a page is loaded, the extension checks if the viewed URL is that of a product on [blue-tomato.com](blue-tomato.com). If so, it issues a request to the server component (`/create`), which returns an id for the current chat, as well as 5 questions, a user may ask about the product, which are displayed as suggestions. When the user selects a suggested question, or enters their own question, a call to the `/turn` endpoint is issued, sending the server component the chat id and the message the user selected/entered. It then receives the response from the server, which itself gets the answer from OpenAI's API. The returned answer is then rendered in the chat UI.
+- [examples/product-advisor/server.py](examples/product-advisor/server.py): the server component. A simple Flask based service. It has two endpoints
+  - `/create`: called by the Google Chrome extension when a product page on [blue-tomato.com](blue-tomato.com) is viewed. It receives the URL of the viewed page, extracts its plain text, and creates an in-memory object that keeps track of the chat history for this specific session. The system prompt contains the extracted product page contents, and instructions to answer any question based on that extracted text.
+  - `/turn`: called by the Google Chrome extension when the user entered a new message/question. Receives the chat id and the new message. The new message is appeneded to the chat history for that chat id. Then the full chat history plus the system prompt including the product page text and instructions are send to OpenAI's APIs to receive a corresponding answer. The answer is stored in the chat history and returned to the Google Chrome extension.
+
+To run this demo:
+
+- Start the server: `cd examples/product-advisor && ./setup.sh && source venv/bin/activate` to create a Python virtual environment, install the dependencies, and activate the virtual environment for the current terminal session. Then run `python sever.py` to start the server.
+- Open the URL `chrome://extensions` in Google Chrome. Click on "Load unpacked" and select the directory `examples/product-advisor/extension`.
+- Open the [blue-tomato.com](blue-tomato.com) website and navigate to any product page. Upon loading a product page for the first time, the server fetches its content and extracts the plain text. This can take a little. The chat window will only pop up once the server has done the extraction.

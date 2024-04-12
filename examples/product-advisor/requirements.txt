@@ -1,0 +1,6 @@
+Flask
+flask-cors
+openai
+tiktoken
+beautifulsoup4
+requests
