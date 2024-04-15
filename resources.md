@@ -19,6 +19,7 @@ Here you find supplemental information to get a deeper understanding of topics c
 - [Transformers and Large Language Models](https://web.stanford.edu/~jurafsky/slp3/10.pdf)
 - [Benchmarking Large Language Models for Log Analysis, Security, and Interpretation](https://arxiv.org/pdf/2311.14519v1.pdf)
 - [Stanford CS25: Transformers United V3](https://web.stanford.edu/class/cs25/), see also the [YouTube playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
+- [3Blue1Brown: Visualizing Attention](https://www.3blue1brown.com/lessons/attention)
 
 ## Prompt Engineering
 
